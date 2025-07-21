@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumit Kumar Singh - Full Stack Developer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 300;
+        }
+        
+        .header .subtitle {
+            font-size: 1.2em;
+            opacity: 0.9;
+            margin-bottom: 20px;
+        }
+        
+        .contact-links {
+            margin-top: 20px;
+        }
+        
+        .contact-links a {
+            color: #3498db;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+        
+        .contact-links a:hover {
+            color: #2980b9;
+        }
+        
+        .content {
+            padding: 0 30px 30px 30px;
+        }
+        
+        .section {
+            margin: 30px 0;
+        }
+        
+        .section h2 {
+            color: #2c3e50;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #3498db;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .summary {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 4px solid #3498db;
+            margin: 20px 0;
+        }
+        
+        .education-item, .experience-item {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #e74c3c;
+        }
+        
+        .education-item h3, .experience-item h3 {
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+        
+        .education-item .institution, .experience-item .company {
+            color: #7f8c8d;
+            font-style: italic;
+            margin-bottom: 5px;
+        }
+        
+        .education-item .score {
+            font-weight: bold;
+            color: #27ae60;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+        
+        .skill-category {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #9b59b6;
+        }
+        
+        .skill-category h4 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .skill-category ul {
+            list-style: none;
+        }
+        
+        .skill-category li {
+            padding: 2px 0;
+            color: #555;
+        }
+        
+        .achievement {
+            background: #fff3cd;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #ffc107;
+            margin: 10px 0;
+        }
+        
+        .achievement .rank {
+            font-weight: bold;
+            color: #d68910;
+        }
+        
+        .activity {
+            background: #d1ecf1;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #17a2b8;
+            margin: 10px 0;
+        }
+        
+        .activity h4 {
+            color: #2c3e50;
+            margin-bottom: 8px;
+        }
+        
+        .activity .duration {
+            font-style: italic;
+            color: #6c757d;
+            font-size: 0.9em;
+        }
+        
+        .footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-style: italic;
+        }
+        
+        @media (max-width: 600px) {
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .content {
+                padding: 0 20px 20px 20px;
+            }
+            
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Shreyansh Mohapatra</h1>
+            <div class="subtitle">Web Developer</div>
+            <div class="contact-links">
+                <a href="https://github.com/Yash-tech25" target="_blank">💻 GitHub</a>
+            </div>
+        </div>
+        
+        <div class="content">
+            <div class="summary">
+                <p><strong>🚀 Professional Summary:</strong> Passionate Web Developer with expertise in modern web technologies and a strong foundation in frontend development. Learning continuously to enhance skills and deliver high-quality web applications.</p>
+            </div>
+            
+            <div class="section">
+                <h2>🎓 Education</h2>
+                
+                <div class="education-item">
+                    <h3>Bachelor of Technology - Computer Science and Engineering</h3>
+                    <div class="institution">Vellore Institute of Technology, Bhopal</div>
+                    <div class="duration">2023 - 2027</div>
+                </div>
+                
+                <div class="education-item">
+                    <h3>Higher Secondary Education (12th)</h3>
+                    <div class="institution">KV Ballygunge</div>
+                    <div class="score">88.2% </div>
+                </div>
+                
+                <div class="education-item">
+                    <h3>Secondary Education (10th)</h3>
+                    <div class="institution">KV Ballygunge</div>
+                    <div class="score">97.2%</div>
+                </div>
+            </div>
+            
+            <!-- <div class="section">
+                <h2>💼 Professional Experience</h2>
+                
+                <div class="experience-item">
+                    <h3>Software Engineer (Intern)</h3>
+                    <div class="company">The Geostrata Company - Remote</div>
+                    <div class="duration">Present</div>
+                    <ul style="margin-top: 10px; padding-left: 20px;">
+                        <li>Working as a full-stack developer contributing to enterprise-level applications</li>
+                        <li>Collaborating with cross-functional teams in a remote work environment</li>
+                        <li>Implementing scalable solutions using modern web technologies</li>
+                    </ul>
+                </div>
+            </div> -->
+            
+            <div class="section">
+                <h2>🛠 Technical Skills</h2>
+                
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h4>Frontend Development</h4>
+                        <ul>
+                            <li>React.js</li>
+                            <li>JavaScript (ES6+)</li>
+                            <li>HTML5 & CSS3</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- <div class="skill-category">
+                        <h4>Backend Development</h4>
+                        <ul>
+                            <li>Node.js</li>
+                            <li>Express.js</li>
+                            <li>RESTful APIs</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h4>Full Stack</h4>
+                        <ul>
+                            <li>MERN Stack</li>
+                            <li>Next.js Framework</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h4>DevOps & Tools</h4>
+                        <ul>
+                            <li>Docker</li>
+                            <li>Qdrant Vector DB</li>
+                            <li>Job Queuing</li>
+                        </ul>
+                    </div> -->
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>🏆 Achievements</h2>
+                
+                <div class="achievement">
+                    <div class="rank">Made a mental health awareness website</div>
+                    <div>Spread awareness about mental health issues and resources. Providing detailed information and support options.</div>
+                </div>
+                
+                <div class="achievement">
+                    <div class="rank">Made a rainfall prediction model</div>
+                    <div>Used machine learning algorithms to predict rainfall patterns based on historical data. Used random forests for improved accuracy.</div>
+                </div>
+                
+                
+            </div>
+            
+            <div class="section">
+                <h2>🌟 Extra-Curricular Activities</h2>
+                
+                <div class="activity">
+                    <h4>Participated in college hackathon</h4>
+                    <!-- <div class="duration">August 2024 - Present</div> -->
+                    <p>Made a UI using simple HTML and CSS for the competition</p>
+                </div>
+                
+                <!-- <div class="activity">
+                    <h4>Core Team Member - Open Source Club Tech Team</h4>
+                    <div class="duration">September 2024 - Present</div>
+                    <p>Promoting open-source contribution culture and leading technical workshops</p>
+                </div> -->
+            </div>
+        </div>
+        
+        <div class="footer">
+            "Passionate about creating innovative solutions and contributing to the tech community"
+        </div>
+    </div>
+</body>
+</html>
